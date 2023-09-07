@@ -212,9 +212,192 @@ body{
 .footer-logo img{
     margin-bottom: 40px;
 }
+.footer-links{
+    text-align: center;
+}
+.footer-links h5{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'MADEOkineSansPERSONALUSEBlack';
+    color: #bac2b8;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+.footer-links ul{
+    margin: 0px;
+    padding: 0px;
+}
+.footer-links ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+.footer-links ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.footer-links.footer-address a{
+    display: block;
+}
+.copyright{
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
 @media only screen and (min-width: 1920px){
 
     .container-fluid{
         width: 1720px;
+    }
+}
+@media only screen and (max-width: 1199px){
+
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 0px 20px;
+    }
+    .btn-small{
+        padding: 8px 15px;
+    }
+    .banner-section-wrapper h1{
+        font-size: 70px;
+    }
+    .banner-section-wrapper .row{
+        height: 800px;
+    }
+    .padding150-100{
+        padding: 150px 60px;
+    }
+    .contact-form-wrapper .row{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 991px){
+
+    header .btn.btn-small{
+        display: none;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 0px 10px;
+    }
+    .banner-section-wrapper h1{
+        font-size: 60px;
+    }
+    .banner-section-wrapper .row{
+        height: 700px;
+    }
+    .padding150-100{
+        padding: 150px 20px;
+    }
+    .white-box{
+        width: auto;
+        padding: 80px 20px;
+    }
+    .title-and-description h3{
+        font-size: 40px;
+    }
+    .title-and-description h3 br{
+        display: none;
+    }
+    .contact-form-wrapper{
+        padding: 80px 40px;
+    }
+}
+@media only screen and (max-width: 767px){
+
+    .space-from-left-right{
+        padding: 0px 20px;
+    }
+    .link-with-icon{
+        margin-right: 20px;
+    }
+    .navbar-toggler{
+        background-color: #000000;
+    }
+    .banner-section-wrapper h1{
+        font-size: 50px;
+    }
+    .banner-section-wrapper .row{
+        height: 600px;
+    }
+    .padding150-100{
+        padding: 100px 20px;
+    }
+    .white-btn{
+        font-size: 18px;
+    }
+    .space-top-bottom100{
+        padding: 60px 0px;
+    }
+    .contact-form-wrapper h4{
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .footer-address{
+        margin: 40px 0px;
+    }
+    .banner-section-wrapper h1 br{
+        display: none;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 575px){
+
+    .link-with-icon{
+        margin-right: 0px;
+    }
+    .space-from-left-right{
+        padding: 0px 0px;
+    }
+    .banner-section-wrapper h1{
+        font-size: 40px;
+    }
+    .banner-section-wrapper .row{
+        height: 500px;
+    }
+    .white-btn{
+        padding: 15px 30px;
+    }
+    .padding150-100{
+        padding: 60px 0px;
+    }
+    .title-and-description h3{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .title-and-description p{
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .btn-style{
+        padding: 15px 40px;
+        font-size: 18px;
+    }
+    .white-box{
+        padding: 60px 20px;
+    }
+    .title-and-description.white-box p{
+        margin-bottom: 0px;
+    }
+    .section-title{
+        font-size: 35px;
+    }
+    .contact-form-wrapper{
+        padding: 40px 20px;
+    }
+    .contact-form-wrapper h4{
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+    .footer-section-wrapper{
+        margin-top: 60px;
     }
 }
